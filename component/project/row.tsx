@@ -5,7 +5,6 @@ import { CommonRows } from '../common/CommonRow';
 import { IRow } from '../common/IRow';
 import Util from '../common/Util';
 import { EmptyRowCol } from '../common';
-import { HrefTargetBlank } from '../common';
 
 export default function ProjectRow({ payload }: PropsWithChildren<{ payload: IProject.Payload }>) {
   return (

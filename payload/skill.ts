@@ -19,7 +19,6 @@ const backend: ISkill.Skill = {
       title: 'ngnix',
       level: 2,
     },
-    
   ],
 };
 

@@ -9,9 +9,7 @@ const project: IProject.Payload = {
       where: 'LikeLion at DGIST',
       descriptions: [
         { content: '본인의 아이디어를 자유롭게 공유 / 피드백 할 수 있는 플랫폼' },
-        { content: '홈페이지' ,
-          href: 'http://idea.likelion.org/',
-        },
+        { content: '홈페이지', href: 'http://idea.likelion.org/' },
       ],
     },
     {
@@ -23,9 +21,7 @@ const project: IProject.Payload = {
         {
           content: '2020 대구경북 아이디어톤 대회 플랫폼',
           weight: 'MEDIUM',
-          descriptions: [
-            { content: '공지사항, 피드백, 결과물 제출을 본 플랫폼을 통해 진행' },
-          ],
+          descriptions: [{ content: '공지사항, 피드백, 결과물 제출을 본 플랫폼을 통해 진행' }],
         },
         {
           content: '2020 대구경북 아이디어톤 대회 시민투표 플랫폼',
@@ -36,9 +32,9 @@ const project: IProject.Payload = {
             { content: '최대 일일 접속자수 500여명' },
           ],
         },
-        { 
+        {
           content: '언론 보도자료',
-          href: 'http://www.veritas-a.com/news/articleView.html?idxno=325936'
+          href: 'http://www.veritas-a.com/news/articleView.html?idxno=325936',
         },
       ],
     },
@@ -48,8 +44,14 @@ const project: IProject.Payload = {
       endedAt: '2020-02',
       where: 'Archidraw',
       descriptions: [
-        { content: '고객에게 받은 건물 및 인테리어 데이터를 바탕으로 평면도/조감도 이미지와 2D / 3D 도면 컨텐츠를 구축하여 전달해주는 서비스' },
-        { content: 'User 친화적인 user page와 request 를 효율적으로 관리할 수 있는 admin page 기획, 개발' },
+        {
+          content:
+            '고객에게 받은 건물 및 인테리어 데이터를 바탕으로 평면도/조감도 이미지와 2D / 3D 도면 컨텐츠를 구축하여 전달해주는 서비스',
+        },
+        {
+          content:
+            'User 친화적인 user page와 request 를 효율적으로 관리할 수 있는 admin page 기획, 개발',
+        },
       ],
     },
     {
