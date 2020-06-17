@@ -5,16 +5,16 @@ const education: IEducation.Payload = {
 
   list: [
     {
-      title: 'Foo University',
-      subTitle: 'Bar Major Bachelor',
-      startedAt: '2010-03',
-      endedAt: '2016-08',
+      title: 'DGIST (대구경북과학기술원)',
+      subTitle: 'Transdisciplinary Science',
+      startedAt: '2017-03',
+      endedAt: 'Now',
     },
     {
-      title: 'Foo High School',
+      title: '대전동산고등학교',
       subTitle: 'Graduated',
-      startedAt: '2007-03',
-      endedAt: '2010-02',
+      startedAt: '2014-03',
+      endedAt: '2017-02',
     },
   ],
 };

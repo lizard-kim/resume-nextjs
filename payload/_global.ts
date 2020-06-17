@@ -2,8 +2,8 @@ import favicon from '../asset/favicon.ico';
 import previewImage from '../asset/preview.jpg';
 import { IGlobal } from '../component/common/IGlobal';
 
-const title = 'RESUME-NEXTJS Sample Page';
-const description = 'This is a simple web resume sample.';
+const title = 'I am Taeyeong';
+const description = 'Lizard';
 
 export const _global: IGlobal.Payload = {
   favicon,
@@ -24,10 +24,10 @@ export const _global: IGlobal.Payload = {
       ],
       type: 'profile',
       profile: {
-        firstName: 'Lorem',
-        lastName: 'ipsum',
-        username: 'lorem',
-        gender: 'femail',
+        firstName: 'Taeyeong',
+        lastName: 'Kim',
+        username: 'lizard_kim',
+        gender: 'male',
       },
     },
   },

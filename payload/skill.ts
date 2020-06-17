@@ -4,51 +4,22 @@ const backend: ISkill.Skill = {
   category: 'Back-end',
   items: [
     {
-      title: 'Node.js',
+      title: 'Django',
       level: 3,
-    },
-    {
-      title: 'AWS',
-      level: 3,
-    },
-    {
-      title: 'PHP',
-      level: 2,
-    },
-    {
-      title: 'Java',
-      level: 1,
     },
     {
       title: 'Python',
-      level: 1,
-    },
-    {
-      title: 'C/C++',
-      level: 1,
-    },
-  ],
-};
-
-const database: ISkill.Skill = {
-  category: 'Database',
-  items: [
-    {
-      title: 'MySQL',
       level: 3,
     },
     {
-      title: 'Oracle',
+      title: 'AWS(EC2, S3)',
       level: 2,
     },
     {
-      title: 'Redis',
+      title: 'ngnix',
       level: 2,
     },
-    {
-      title: 'MongoDB',
-      level: 1,
-    },
+    
   ],
 };
 
@@ -56,20 +27,54 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'Next.js',
-      level: 2,
+      title: 'HTML/CSS',
+      level: 3,
+    },
+    {
+      title: 'SASS/SCSS',
+      level: 3,
     },
     {
       title: 'React.js',
       level: 2,
     },
     {
-      title: 'javascript',
+      title: 'JS/Jquery',
       level: 2,
     },
     {
-      title: 'HTML/CSS',
+      title: 'Jekyll',
       level: 2,
+    },
+    {
+      title: 'Bootstrap',
+      level: 2,
+    },
+  ],
+};
+
+const database: ISkill.Skill = {
+  category: 'ML/Embedded/Mobile',
+  items: [
+    {
+      title: 'C/C++',
+      level: 2,
+    },
+    {
+      title: 'OpenCV',
+      level: 2,
+    },
+    {
+      title: 'Pytorch',
+      level: 1,
+    },
+    {
+      title: 'Keras',
+      level: 1,
+    },
+    {
+      title: 'React Native',
+      level: 1,
     },
   ],
 };
@@ -84,23 +89,29 @@ const etc: ISkill.Skill = {
       title: 'Vim',
     },
     {
-      title: 'Security',
+      title: 'Git/Github',
     },
     {
       title: 'VS Code',
     },
     {
-      title: 'Jira',
+      title: 'Slack',
     },
     {
-      title: 'Confluence',
+      title: 'Notion',
+    },
+    {
+      title: 'Figma',
+    },
+    {
+      title: 'Adobe XD',
     },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, database, frontend, etc],
+  skills: [backend, frontend, database, etc],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
 };
 

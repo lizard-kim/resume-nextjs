@@ -1,7 +1,8 @@
 import { IPresentation } from '../component/presentation/IPresentation';
 
 const presentation: IPresentation.Payload = {
-  disable: false,
+  disable: true,
+  /* 멋사 세미나 좀 쌓이면 넣자 */
 
   list: [
     {
